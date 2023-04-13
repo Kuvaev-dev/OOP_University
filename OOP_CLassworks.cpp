@@ -43,7 +43,7 @@ public:
 void printUsers(User** users, int numUsers) {
 	cout << "-> Список усіх користувачів:\n";
 	for (int i = 0; i < numUsers; i++) {
-		cout << "\t-> Користувач № " << i + 1 << "\nЛогін = " << users[i]->getLogin() << "\nПароль = " << users[i]->getPassword() << endl;
+		cout << "\t-> Користувач № " << i + 1 << "\n\tЛогін = " << users[i]->getLogin() << "\n\tПароль = " << users[i]->getPassword() << endl;
 	}
 }
 
